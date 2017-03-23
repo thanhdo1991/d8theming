@@ -35,8 +35,7 @@ gulp.task('local-development', ['sass-dev', 'pl-generate'], function () {
   browserSync({
     server: {
       baseDir: "../",
-    },
-    startPath: "pattern-lab/public"
+    }
   });
 
   gulp.watch(src.scss, ['sass-dev']);
