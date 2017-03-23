@@ -1,5 +1,5 @@
 // Susy grid.
-$debug: false; // Set true to show the grid.
+$debug: true; // Set true to show the grid.
 $show-image: 'hide';
 
 @if $debug == false {
@@ -42,8 +42,8 @@ $susy-tablet: (
 $susy-desktop: (
   columns: $column-desktop,
   gutters: 36px / 62px,
-  container-position: auto,
-  container: rem($container-desktop),
+  container-position: rem($container-margin * 4),
+  container: auto,
   debug: (
     image: $show-image,
     color: rgba($silver, .25),
