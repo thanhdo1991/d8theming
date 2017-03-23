@@ -11,6 +11,9 @@ logs
 .npm/node_modules
 .npm/bower_components/
 
+# Ignore Vendor folder
+vendor/
+
 # Ignore SASS source maps
 *.css.map
 

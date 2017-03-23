@@ -4,10 +4,8 @@
 
 // WARNING: DO NOT EDIT /assets/css/styles.css file manually, this should be generated only by compiler based on this file.
 
-
 //Required imports
-@import '../.npm/bower_components/susy/sass/susy';
-
+@import '../vendor/susy/susy';
 
 //Helpers
 @import 'helpers/extends';
