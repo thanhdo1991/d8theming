@@ -17,22 +17,22 @@ So you got the prerequisites installed, and you're ready to get started? Great! 
 
 2. Open up the project folder in Terminal.
 
-3. Navigate to the .npm folder:
+3. Run
+
+    ```
+    composer install
+    ```
+
+4. Navigate to the .npm folder:
 
     ```
     cd .npm
     ```
 
-4. Install all the required packages and libraries with Node Package Manager
+5. Install all the required packages and libraries with Node Package Manager
 
     ```
     npm install
-    ```
-
-5. For just compile style:
-
-    ```
-    gulp sass-watch
     ```
 
 6. Initialize the project with Gulp:
