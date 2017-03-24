@@ -6,7 +6,7 @@
 
 
 //Required imports
-@import '../vendor/susy/susy';
+@import '../.npm/bower_components/susy/sass/susy';
 
 
 //Helpers
@@ -26,12 +26,14 @@
 @import 'base/btn';
 @import 'base/form';
 
+// Helper classes
+@import 'helpers/helpers';
+
 // Vendors
-//@import 'vendors/chosen';
 
 // Blocks
-@import 'blocks/block-example';
-@import 'blocks/index-links';
+@import 'components/page-title';
+@import 'components/slider';
 
 // Layouts
 @import 'layouts/layout';
